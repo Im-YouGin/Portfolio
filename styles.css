@@ -126,7 +126,7 @@ html, body {
 }
 
 #header .nav-list ul a {
-    font-size: 2.5 rem;
+    /*font-size: 2.5rem;*/
     font-weight: 500;
     letter-spacing: .2rem;
     text-decoration: none;
@@ -768,8 +768,9 @@ fieldset {
     .footer .links {
         display: none;
     }
+
     .footer .footer-content {
-        align-items: left;
+        align-items: flex-start;
     }
 
     #header .brand h1 {
@@ -788,9 +789,9 @@ fieldset {
 		position: initial;
 		display: block;
 		height: auto;
-		width: fit-content;
+		width: 535px;
         background-color: transparent;
-        margin: 0 100px;
+        margin: 0 80px;
 
     }
     #header .nav-list ul li {
